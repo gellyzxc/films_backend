@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "e253b3c2-76af-4abf-8dd8-ee787816df16",
+		"name": "zxc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost/api/show/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api/2",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "film_name",
+							"value": "название фильма",
+							"type": "text"
+						},
+						{
+							"key": "film_about",
+							"value": "о фильме",
+							"type": "text"
+						},
+						{
+							"key": "film_duration",
+							"value": "длительность флиьма",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/api/0/create",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"0",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api/edit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "film_name",
+							"value": "АХХАХА",
+							"type": "text"
+						},
+						{
+							"key": "film_about",
+							"value": "кто я",
+							"type": "text"
+						},
+						{
+							"key": "film_duration",
+							"value": "15 chasov",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/api/2/edit",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"2",
+						"edit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api/delete",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "film_name",
+							"value": "zxc",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "film_about",
+							"value": "zxc1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "film_duration",
+							"value": "zxczxczxduration",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/api/2/delete",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"2",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api/all",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
